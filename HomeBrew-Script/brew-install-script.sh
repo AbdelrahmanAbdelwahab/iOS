@@ -33,7 +33,8 @@ echo "Installing my best Homebrew Packages..... "
     brew install zsh-completions
     brew install fswatch
     brew install coreutils
-    
+    brew install aria2 #https://aria2.github.io
+   
 echo "Installing my fav apps..."
     brew install --cask alacritty
     brew install --cask amethyst
@@ -63,6 +64,7 @@ brew install --cask microsoft-teams
 brew install --cask microsoft-outlook
 brew install --cask slack
 brew install --cask zoom
+brew install --cask telegram
 
 # Web Tools
 echo "Installing web tools..."
