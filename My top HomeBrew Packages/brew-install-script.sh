@@ -8,11 +8,41 @@ echo "Installing brew..."
 
 echo "Installing brew cask..."
 brew tap homebrew/cask
-
+  
 echo "Installing my best Homebrew Packages..... "
-brew install tldr
-brew install --cask xcodes
+    brew install tldr
+    brew install archey
+    brew install chruby
+    brew install curl
+    brew install fastlane
+    brew install git
+    brew install git-extras
+    brew install git-flow
+    brew install git-secrets
+    brew install legit
+    brew install mackup
+    brew install neofetch
+    brew install neovim
+    brew install node
+    brew install ruby-install
+    brew install smartmontools
+    brew install starship
+    brew install subversion
+    brew install tldr
+    brew install trash
+    brew install tree
+    brew install wget
+    brew install youtube-dl
+    brew install zsh
+    brew install zsh-completions
 
+    brew install --cask alacritty
+    brew install --cask amethyst
+    brew install --cask forticlient
+    brew install --cask vlc
+    brew install --cask xcodes
+    brew install --cask virtualbox
+    
 # Programming Languages
 #echo "Installing programming languages..."
 #brew install scala
@@ -52,6 +82,7 @@ brew install --cask microsoft-word
 
 
 # List of all packages installed Homebrew
+# brew list
 # brew leaves > my_brews.txt
 # install them on the new mac
 # xargs brew install < my_brews.txt
