@@ -48,4 +48,10 @@ echo "Installing writing apps..."
 brew install --cask microsoft-word
 
 # Other
-echo "Installing everything else..."
+#echo "Installing everything else..."
+
+
+# List of all packages installed Homebrew
+# brew leaves > my_brews.txt
+# install them on the new mac
+# xargs brew install < my_brews.txt
