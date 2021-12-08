@@ -35,7 +35,8 @@ echo "Installing my best Homebrew Packages... "
     brew install fswatch
     brew install coreutils
     brew install aria2 # https://github.com/aria2/aria2
-   
+    brew install you-get
+    #brew install ffmpeg
 echo "Installing my fav apps..."
     brew install --cask alacritty
     brew install --cask amethyst
@@ -90,3 +91,4 @@ brew install --cask microsoft-word
 # brew leaves > my_brews.txt
 # install them on the new mac
 # xargs brew install < my_brews.txt
+#https://betterprogramming.pub/my-top-homebrew-packages-for-2020-b6565d46de85
