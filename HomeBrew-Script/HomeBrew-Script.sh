@@ -91,4 +91,6 @@ brew install --cask microsoft-word
 # brew leaves > my_brews.txt
 # install them on the new mac
 # xargs brew install < my_brews.txt
+#brew uninstall appName to unInstall app
+
 #https://betterprogramming.pub/my-top-homebrew-packages-for-2020-b6565d46de85
