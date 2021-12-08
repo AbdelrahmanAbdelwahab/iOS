@@ -9,7 +9,8 @@ echo "Installing brew..."
 echo "Installing brew cask..."
 brew tap homebrew/cask
   
-echo "Installing my best Homebrew Packages..... "
+echo "Installing my best Homebrew Packages... "
+
     brew install tldr
     brew install archey
     brew install chruby
@@ -74,7 +75,6 @@ brew install --cask postman
 
 # File Storage
 echo "Installing file storage tools..."
-brew install --cask dropbox
 brew install --cask onedrive
 
 # Writing Apps
