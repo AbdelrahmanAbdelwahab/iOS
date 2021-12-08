@@ -34,7 +34,7 @@ echo "Installing my best Homebrew Packages... "
     brew install zsh-completions
     brew install fswatch
     brew install coreutils
-    brew install aria2 #https://aria2.github.io
+    brew install aria2 # https://github.com/aria2/aria2
    
 echo "Installing my fav apps..."
     brew install --cask alacritty
