@@ -15,10 +15,6 @@ echo "Installing my best Homebrew Packages..... "
     brew install chruby
     brew install curl
     brew install fastlane
-    brew install git
-    brew install git-extras
-    brew install git-flow
-    brew install git-secrets
     brew install legit
     brew install mackup
     brew install neofetch
@@ -35,7 +31,9 @@ echo "Installing my best Homebrew Packages..... "
     brew install youtube-dl
     brew install zsh
     brew install zsh-completions
-
+    
+    
+echo "Installing my fav apps..."
     brew install --cask alacritty
     brew install --cask amethyst
     brew install --cask forticlient
@@ -51,9 +49,12 @@ echo "Installing my best Homebrew Packages..... "
 
 # Dev Tools
 echo "Installing development tools..."
-brew install git
-brew install --cask github
-brew install --cask visual-studio-code
+    brew install git
+    brew install git-extras
+    brew install git-flow
+    brew install git-secrets
+    brew install --cask github
+    brew install --cask visual-studio-code
 
 # Communication Apps
 echo "Installing communication apps..."
