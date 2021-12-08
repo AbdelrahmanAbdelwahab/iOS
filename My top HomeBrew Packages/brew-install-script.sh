@@ -31,7 +31,8 @@ echo "Installing my best Homebrew Packages..... "
     brew install youtube-dl
     brew install zsh
     brew install zsh-completions
-    
+    brew install fswatch
+    brew install coreutils
     
 echo "Installing my fav apps..."
     brew install --cask alacritty
