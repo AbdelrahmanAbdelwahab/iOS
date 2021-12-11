@@ -6,9 +6,6 @@
 echo "Installing brew..."
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-echo "Installing brew cask..."
-brew tap homebrew/cask
-  
 echo "Installing my best Homebrew Packages... "
 
     brew install tldr
@@ -38,12 +35,14 @@ echo "Installing my best Homebrew Packages... "
     brew install you-get
     #brew install ffmpeg
 echo "Installing my fav apps..."
+    #brew install --cask Jellyfin
+    #brew install --cask Docker
     brew install --cask alacritty
     brew install --cask amethyst
     brew install --cask forticlient
     brew install --cask vlc
     brew install --cask xcodes
-    brew install --cask virtualbox
+   # brew install --cask virtualbox
     
 # Programming Languages
 #echo "Installing programming languages..."
@@ -71,7 +70,7 @@ brew install --cask telegram
 # Web Tools
 echo "Installing web tools..."
 brew install --cask firefox
-brew install --cask google-chrome
+#brew install --cask google-chrome
 brew install --cask postman
 
 # File Storage
@@ -94,3 +93,5 @@ brew install --cask microsoft-word
 #brew uninstall appName to unInstall app
 
 #https://betterprogramming.pub/my-top-homebrew-packages-for-2020-b6565d46de85
+
+#sh ./File.sh
