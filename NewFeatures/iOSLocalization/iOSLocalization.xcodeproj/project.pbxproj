@@ -16,7 +16,7 @@
 		AA565FB02775F2800022D284 /* iOSLocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA565FAF2775F2800022D284 /* iOSLocalizationTests.swift */; };
 		AA565FBA2775F2800022D284 /* iOSLocalizationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA565FB92775F2800022D284 /* iOSLocalizationUITests.swift */; };
 		AA565FBC2775F2800022D284 /* iOSLocalizationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA565FBB2775F2800022D284 /* iOSLocalizationUITestsLaunchTests.swift */; };
-		AA565FC92776266D0022D284 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA565FC82776266D0022D284 /* Localizable.strings */; };
+		AAE922ED277626D200EB40F7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAE922EF277626D200EB40F7 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		AA565FB52775F2800022D284 /* iOSLocalizationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSLocalizationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA565FB92775F2800022D284 /* iOSLocalizationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSLocalizationUITests.swift; sourceTree = "<group>"; };
 		AA565FBB2775F2800022D284 /* iOSLocalizationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSLocalizationUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		AA565FC82776266D0022D284 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		AAE922EE277626D200EB40F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,7 @@
 				AA565FA12775F27F0022D284 /* Assets.xcassets */,
 				AA565FA32775F27F0022D284 /* LaunchScreen.storyboard */,
 				AA565FA62775F27F0022D284 /* Info.plist */,
-				AA565FC82776266D0022D284 /* Localizable.strings */,
+				AAE922EF277626D200EB40F7 /* Localizable.strings */,
 			);
 			path = iOSLocalization;
 			sourceTree = "<group>";
@@ -235,7 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA565FA52775F27F0022D284 /* LaunchScreen.storyboard in Resources */,
-				AA565FC92776266D0022D284 /* Localizable.strings in Resources */,
+				AAE922ED277626D200EB40F7 /* Localizable.strings in Resources */,
 				AA565FA22775F27F0022D284 /* Assets.xcassets in Resources */,
 				AA565FA02775F27D0022D284 /* Main.storyboard in Resources */,
 			);
@@ -315,6 +315,14 @@
 				AA565FA42775F27F0022D284 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AAE922EF277626D200EB40F7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAE922EE277626D200EB40F7 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
