@@ -1,6 +1,6 @@
 # iOS Localization
 
-<img src="iOS_localization.jpg" width="400">
+<img src="iOS_localization.jpg">
 
 
 
