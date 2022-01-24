@@ -42,6 +42,7 @@ echo "Installing my fav apps..."
     brew install --cask forticlient
     brew install --cask vlc
     brew install --cask xcodes
+    brew install --cask android-studio
    # brew install --cask virtualbox
     
 # Programming Languages
