@@ -22,3 +22,6 @@ wget
 youtube-dl
 zsh
 zsh-completions
+
+
+https://easyappicon.com
